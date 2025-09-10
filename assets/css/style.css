@@ -28,6 +28,12 @@ a {
   font-weight: 400;
   line-height: 60px;
 }
+.btn:hover {
+  opacity: 0.8;
+}
+img {
+  object-fit: cover;
+}
 /* ============= header =========== */
 .header {
   background: #10375c;
@@ -52,3 +58,61 @@ a {
   line-height: 1.75;
   padding: 8px 20px;
 }
+
+/* ========= hero =========== */
+.header-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.hero-content{
+  width: 44%;
+}
+
+.hero-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1; /*width chiem toan bo phan con lai*/
+}
+.hero__heading {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -1.4px;
+}
+.hero__para {
+  color: #c9d2da;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+.hero__book {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+.btn-book {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px; 
+}
+.hero__book span{
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero-media img {
+  border-radius: 6px;
+
+}
+
+
+
